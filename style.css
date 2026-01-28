@@ -1,0 +1,25 @@
+:root{
+    --col1:#27DDF5;
+    --col2:#07E81A;
+}
+body{
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: var(--col1);
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    background-color: var(--col3, brown);
+}
+.box3{
+    --col3:#4500FF;
+    height: 250px;
+    width: 250px;
+    background-color: var(--col3);
+
+}
